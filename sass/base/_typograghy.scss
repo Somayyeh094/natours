@@ -28,14 +28,7 @@ body {
 .secondary-heading {
   font-size: 3.5rem;
   font-weight: 700;
-  background-image: linear-gradient(
-    to right,
-    $primary-color-light,
-    $primary-color-dark
-  );
-  display: inline-block;
-  background-clip: text;
-  color: transparent;
+  @include gradient-color-text;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
   transition: all 0.2s;

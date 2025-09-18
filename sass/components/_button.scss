@@ -20,6 +20,13 @@
       background-color: $white-color;
     }
   }
+  &--green {
+    background-color: $primary-color-medium;
+    color: $white-color;
+    &::after {
+      background-color: $primary-color-medium;
+    }
+  }
 
   &:hover {
     transform: translateY(-4px);
